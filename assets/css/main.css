@@ -99,8 +99,8 @@ mark {
 }
 
 .profile-picture {
-    max-width: 500px;
-    border-radius: 80%;
+    max-width: 400px;
+    border-radius: 50%;
 }
 
 .about-text {
@@ -112,6 +112,16 @@ mark {
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
+}
+
+.image.main img {
+    width: 5%;
+    height: auto;
+}
+
+.image.main {
+    display: none;
+    align-items: center;
 }
 
 input, select, textarea {
